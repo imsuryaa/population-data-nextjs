@@ -1,7 +1,7 @@
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { numberWithCommas } from "./utils";
+import { numberWithCommas } from "./utils/utils";
 import SEO from "./components/SEO";
 
 export default function Home() {

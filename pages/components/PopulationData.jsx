@@ -18,7 +18,7 @@ import { BarChart } from "@mui/x-charts/BarChart";
 import ViewListIcon from "@mui/icons-material/ViewList";
 import BarChartIcon from "@mui/icons-material/BarChart";
 import { styled } from "@mui/material/styles";
-import { countryCode, numberWithCommas, columns } from "../utils";
+import { countryCode, numberWithCommas, columns } from "../utils/utils";
 
 const CustomToggleButton = styled(ToggleButton)(({ selectedColor }) => ({
   "&.Mui-selected, &.Mui-selected:hover": {
